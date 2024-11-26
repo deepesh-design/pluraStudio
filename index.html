@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        spline-viewer {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 <body>
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.46/build/spline-viewer.js"></script>
-    <spline-viewer loading-anim-type="spinner-small-light" url="https://prod.spline.design/bDHTij5qdV3On0Qi/scene.splinecode"></spline-viewer>
+    <spline-viewer 
+        loading-anim-type="spinner-small-light" 
+        url="https://prod.spline.design/bDHTij5qdV3On0Qi/scene.splinecode">
+    </spline-viewer>
 </body>
 </html>
